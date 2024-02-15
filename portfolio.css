@@ -34,7 +34,7 @@
 }
 
 #headder{
-/*     border: 2px solid gold; */
+    /* border: 2px solid gold; */
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
@@ -43,6 +43,16 @@
     width: 100%;
     padding: 8rem 0rem 8rem 0rem;
     background-color: #e91e63;
+    animation-name:color_change;
+    animation-duration:30s;
+    animation-iteration-count: infinite;
+}
+@keyframes color_change{
+    0%{background-color: #e91e63;}
+    25%{background-color: #431abf;}
+    50%{background-color:aquamarine;}
+    75%{background-color:chartreuse;}
+    100%{background-color:crimson;}
 }
 #para{
     width: 32rem;
@@ -87,7 +97,7 @@
     flex-wrap: wrap;
 }
 #skills div{
-    width: 10rem;
+    width: 15rem;
     height: 20%;
     padding: 1rem;
     margin: 1rem;
@@ -99,7 +109,7 @@
 }
 
 #skills div img{
-    width: 10rem;
+    width: 20vh;
     margin: 1rem;
 }
 #Projects{
@@ -154,6 +164,7 @@
 }
 #para h3 strong{
     color: chartreuse;
+    background-color: #00000a;
 }
 #para span strong{
     color: rgb(170, 243, 243);
@@ -225,3 +236,4 @@
 .n-btn img{
     display: block;
 }
+
