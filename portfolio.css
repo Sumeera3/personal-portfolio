@@ -43,7 +43,7 @@
     width: 100%;
     padding: 8rem 0rem 8rem 0rem;
     background-color: #e91e63;
-    animation-name:color_change;
+    /* animation-name:color_change;
     animation-duration:30s;
     animation-iteration-count: infinite;
 }
@@ -53,6 +53,7 @@
     50%{background-color:aquamarine;}
     75%{background-color:chartreuse;}
     100%{background-color:crimson;}
+} */
 }
 #para{
     width: 32rem;
