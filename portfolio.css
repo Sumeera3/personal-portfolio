@@ -175,14 +175,13 @@
     height: 20rem;
 }
 /* ABOUT SECTION */
-#About{
+#About_para{
     border: 2px solid black;
     margin: 1rem;
-    display:none;
-    flex-direction: column;
+    display: none;
     align-items: center;
 }
-#About div{
+#About_para p{
     display: flex;
     justify-content: center;
     align-items: center;
